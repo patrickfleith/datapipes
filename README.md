@@ -2,6 +2,12 @@
 
 This repository contains code snippets for text dataset creation.
 
+## LLM Basis - How to use?
+
+| Notebook | Link |
+| -------- | ------- |
+|How to use an OpenAI Chat model | <a target="_blank" href="https://colab.research.google.com/github/patrickfleith/datapipes/blob/main/How_to_use_an_OpenAI_Chat_model.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> |
+
 ## Ideas
 
 ### Inference
