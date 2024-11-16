@@ -29,7 +29,20 @@
 - True/False questions generation
 - True/False questions generationfrom document(s)
 - Question transformation to fit a specific format or style
-- instruction / template / constructor / generator
+- Instruction / template / constructor / generator
+
+### Types of Datasets?
+
+- [ ] Full raw text (for foundation models)
+- [ ] Markdown text (with formula, code snippets, tables, figures, etc.) for further processing
+- [ ] Text classification
+- [ ] Extractive QA (given a passage, generate a question and corresponding answer)
+- [ ] Generative Open Questions and Answers (mostly factual)
+- [ ] Multiple choice questions and answers
+- [ ] True/False questions (with and without context)
+- [ ] UltraChat-like: persona, topics, subtopics -> conversations
+
+
 
 ### Source Processing
 Local files
