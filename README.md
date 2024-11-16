@@ -11,4 +11,4 @@ This repository contains code snippets for text dataset creation.
 ### Easy Data Creation
 
 1. [Simple Question Generation with Distilabel and OpenAI](https://colab.research.google.com/github/patrickfleith/datapipes/blob/main/Simple_Question_Generation_Distilabel_OpenAI.ipynb)
-
+2. [Getting Started with Genstruct7B](https://colab.research.google.com/github/patrickfleith/datapipes/blob/main/Getting_Started_with_Genstruct7B.ipynb)
