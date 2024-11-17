@@ -2,11 +2,18 @@
 
 This repository contains code snippets for text dataset creation.
 
-## LLM Basis - How to use?
+## LLM Basis
+
+### How to use?
 
 1. [How to use an OpenAI Chat model](https://colab.research.google.com/github/patrickfleith/datapipes/blob/main/How_to_use_an_OpenAI_Chat_model.ipynb)
 2. [How to use Anthropic Claude model](https://colab.research.google.com/github/patrickfleith/datapipes/blob/main/How_to_use_Anthropic_Claude_model.ipynb)
 3. [How to use Google Gemini model](https://colab.research.google.com/github/patrickfleith/datapipes/blob/main/How_to_use_Google_Gemini_model.ipynb)
+
+### Structured Output
+1. [Structured Output with OpenAI](https://colab.research.google.com/github/patrickfleith/datapipes/blob/main/Structured_Output_with_OpenAI.ipynb)
+2. [Structured Output with Anthropic](https://colab.research.google.com/github/patrickfleith/datapipes/blob/main/Structured_Output_with_Anthropic.ipynb)
+3. [Structured Output with Google Gemini](https://colab.research.google.com/github/patrickfleith/datapipes/blob/main/Structured_Output_with_Google_Gemini.ipynb)
 
 ### Easy Data Creation
 
