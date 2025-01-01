@@ -15,6 +15,8 @@
     - [ ] Function Calling
 - [ ] Inference Local with a supported Unsloth model
 
+- [ ] Structured output generation with instructor
+
 ### Ideas
 
 - Text classification
@@ -30,6 +32,9 @@
 - True/False questions generationfrom document(s)
 - Question transformation to fit a specific format or style
 - Instruction / template / constructor / generator
+
+- structured output
+
 
 ### Types of Datasets?
 
