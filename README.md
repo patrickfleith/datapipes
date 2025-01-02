@@ -1,6 +1,10 @@
-# datapipes
+---
+layout: default
+title: Home
+---
 
-This repository contains code snippets for text dataset creation.
+# Datapipes
+Simple guides to help you go from zero data to a serial dataset creator.
 
 ## LLM Usage Basics
 
@@ -23,7 +27,14 @@ This repository contains code snippets for text dataset creation.
 2. [Getting Started with Genstruct7B](https://colab.research.google.com/github/patrickfleith/datapipes/blob/main/notebooks/Getting_Started_with_Genstruct7B.ipynb)
 
 ## LLM Evaluation
-
 ### Automated Metrics
 
 1. [Evaluation_101.ipynb](https://colab.research.google.com/github/patrickfleith/datapipes/blob/main/notebooks/Evaluation_101.ipynb)
+
+## How to Use
+1. Browse the notebooks.
+2. Open them in Google Colab using the links.
+3. Run, explore, and modify to suit your needs!
+
+---
+Created with ❤️ by Patrick Fleith.
