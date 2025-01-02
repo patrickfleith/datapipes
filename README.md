@@ -1,8 +1,3 @@
----
-layout: default
-title: Home
----
-
 # Datapipes
 Simple guides to help you go from zero data to a serial dataset creator.
 
