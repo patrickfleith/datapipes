@@ -1,5 +1,5 @@
 title: Datapipes
 description: Simple guides to help you go from zero data to serial dataset creator.
-theme: minimal
+theme: minima
 baseurl: "/datapipes" # Omit if site is at root
 url: "https://patrickfleith.github.io" # Your GitHub Pages URL
