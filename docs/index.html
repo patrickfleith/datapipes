@@ -12,7 +12,6 @@
   />
 
   <style>
-    /* Base styling: remove the flex center and 100vh */
     body {
       margin: 0;
       background: #f0f2f5;
@@ -21,7 +20,6 @@
 
     /* Gradient Follow Button */
     .follow-btn {
-      /* Starting gradient (LinkedIn style) */
       background: linear-gradient(45deg, #0177B5, #005C82);
       color: #fff;
       padding: 14px 24px;
@@ -34,36 +32,24 @@
       position: relative;
       overflow: hidden;
       cursor: pointer;
-
-      /* Smooth transitions */
       transition:
         background 0.5s ease,
         transform 0.3s ease,
         box-shadow 0.3s ease;
-      
-      /* Light initial box shadow */
       box-shadow: 0 4px 14px rgba(1, 119, 181, 0.4);
     }
-
-    /* Hover effect: vibrant color shift, slight scale & stronger shadow */
     .follow-btn:hover {
       background: linear-gradient(45deg, #ff5e5e, #ffbe0b);
       transform: translateY(-2px) scale(1.05);
       box-shadow: 0 6px 16px rgba(255, 94, 94, 0.5);
     }
-
-    /* Active (mouse down) effect: scale down a bit */
     .follow-btn:active {
       transform: scale(0.96);
       box-shadow: 0 3px 8px rgba(255, 94, 94, 0.4);
     }
-
-    /* Class triggered by JS on click for the "burst" animation */
     .animate {
       animation: click-burst 0.4s forwards;
     }
-
-    /* Keyframes for the click animation */
     @keyframes click-burst {
       0% {
         transform: scale(1);
@@ -106,126 +92,202 @@
 
   <!-- Main Container for the Lists -->
   <div class="container my-5" id="guides">
-    <!-- Topic 1 -->
-    <h3 class="mb-3">1. Foundational Guides</h3>
+        <!-- 1. How to use LLMs as a beginner? -->
+    <h3 class="mb-3">How to use LLMs as a beginner</h3>
     <div class="list-group mb-5">
-      <!-- Guide #1 -->
+      <!-- Item 1 -->
       <div class="list-group-item d-flex justify-content-between align-items-center">
         <div>
           <span style="font-size: 1.5rem; margin-right: 0.5rem;">🚀</span>
-          <strong>Basic Dataset Creation</strong>
+          <strong>How to use an OpenAI Chat model</strong>
           <p class="mb-0 small text-muted">
-            Learn how to gather and format data for your first LLM training.
+            Quick start guide to implementing OpenAI Chat models in your project.
           </p>
         </div>
-        <a href="https://colab.research.google.com/drive/1Anp4qvs20p1dyF4iOZWt9V9z3iJ6r2lU" target="_blank">
-          <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab" />
+        <a 
+          href="https://colab.research.google.com/github/patrickfleith/datapipes/blob/main/notebooks/How_to_use_an_OpenAI_Chat_model.ipynb" 
+          target="_blank"
+        >
+          <img 
+            src="https://colab.research.google.com/assets/colab-badge.svg" 
+            alt="Open in Colab" 
+          />
         </a>
       </div>
 
-      <!-- Guide #2 -->
+      <!-- Item 2 -->
       <div class="list-group-item d-flex justify-content-between align-items-center">
         <div>
-          <span style="font-size: 1.5rem; margin-right: 0.5rem;">⚙️</span>
-          <strong>Data Cleaning &amp; Preprocessing</strong>
+          <span style="font-size: 1.5rem; margin-right: 0.5rem;">🧠</span>
+          <strong>How to use Anthropic Claude model</strong>
           <p class="mb-0 small text-muted">
-            Essential methods to sanitize data, handle missing values, and ensure high-quality datasets.
+            A brief intro to using Anthropic's Claude for chat or text completions.
           </p>
         </div>
-        <a href="https://colab.research.google.com/drive/1Anp4qvs20p1dyF4iOZWt9V9z3iJ6r2lU" target="_blank">
-          <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab" />
+        <a 
+          href="https://colab.research.google.com/github/patrickfleith/datapipes/blob/main/notebooks/How_to_use_Anthropic_Claude_model.ipynb" 
+          target="_blank"
+        >
+          <img 
+            src="https://colab.research.google.com/assets/colab-badge.svg" 
+            alt="Open in Colab" 
+          />
         </a>
       </div>
 
-      <!-- Guide #3 -->
+      <!-- Item 3 -->
       <div class="list-group-item d-flex justify-content-between align-items-center">
         <div>
-          <span style="font-size: 1.5rem; margin-right: 0.5rem;">🔬</span>
-          <strong>Data Exploration &amp; Visualization</strong>
+          <span style="font-size: 1.5rem; margin-right: 0.5rem;">🤖</span>
+          <strong>How to use Google Gemini model</strong>
           <p class="mb-0 small text-muted">
-            Explore your data with charts and stats to spot trends or anomalies before training.
+            Learn how to integrate Google’s Gemini into your workflow.
           </p>
         </div>
-        <a href="https://colab.research.google.com/drive/1Anp4qvs20p1dyF4iOZWt9V9z3iJ6r2lU" target="_blank">
-          <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab" />
-        </a>
-      </div>
-    </div>
-
-    <!-- Topic 2 -->
-    <h3 class="mb-3">2. Advanced Data Generation &amp; Augmentation</h3>
-    <div class="list-group mb-5">
-      <!-- Guide #1 -->
-      <div class="list-group-item d-flex justify-content-between align-items-center">
-        <div>
-          <span style="font-size: 1.5rem; margin-right: 0.5rem;">🪄</span>
-          <strong>LLM Data Augmentation</strong>
-          <p class="mb-0 small text-muted">
-            Use LLMs to generate synthetic data for stronger model performance.
-          </p>
-        </div>
-        <a href="https://colab.research.google.com/drive/1Anp4qvs20p1dyF4iOZWt9V9z3iJ6r2lU" target="_blank">
-          <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab" />
-        </a>
-      </div>
-
-      <!-- Guide #2 -->
-      <div class="list-group-item d-flex justify-content-between align-items-center">
-        <div>
-          <span style="font-size: 1.5rem; margin-right: 0.5rem;">🗜️</span>
-          <strong>Custom Tokenization</strong>
-          <p class="mb-0 small text-muted">
-            Go deeper into text processing with specialized tokenizers and pre-processing.
-          </p>
-        </div>
-        <a href="https://colab.research.google.com/drive/1Anp4qvs20p1dyF4iOZWt9V9z3iJ6r2lU" target="_blank">
-          <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab" />
-        </a>
-      </div>
-
-      <!-- Guide #3 -->
-      <div class="list-group-item d-flex justify-content-between align-items-center">
-        <div>
-          <span style="font-size: 1.5rem; margin-right: 0.5rem;">🌐</span>
-          <strong>Multilingual Dataset Creation</strong>
-          <p class="mb-0 small text-muted">
-            Build and manage large multilingual corpora for cross-language model training.
-          </p>
-        </div>
-        <a href="https://colab.research.google.com/drive/1Anp4qvs20p1dyF4iOZWt9V9z3iJ6r2lU" target="_blank">
-          <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab" />
+        <a 
+          href="https://colab.research.google.com/github/patrickfleith/datapipes/blob/main/notebooks/How_to_use_Google_Gemini_model.ipynb" 
+          target="_blank"
+        >
+          <img 
+            src="https://colab.research.google.com/assets/colab-badge.svg" 
+            alt="Open in Colab" 
+          />
         </a>
       </div>
     </div>
 
-    <!-- Topic 3 -->
-    <h3 class="mb-3">3. Specialized Use Cases</h3>
+    <!-- 2. Structured Output -->
+    <h3 class="mb-3">Structured Output</h3>
     <div class="list-group mb-5">
-      <!-- Guide #1 -->
+      <!-- Item 1 -->
       <div class="list-group-item d-flex justify-content-between align-items-center">
         <div>
-          <span style="font-size: 1.5rem; margin-right: 0.5rem;">🔏</span>
-          <strong>Privacy &amp; Anonymization</strong>
+          <span style="font-size: 1.5rem; margin-right: 0.5rem;">📝</span>
+          <strong>Structured Output with OpenAI</strong>
           <p class="mb-0 small text-muted">
-            Best practices for anonymizing sensitive data while preserving dataset quality.
+            Generate structured JSON or XML responses using OpenAI’s chat models.
           </p>
         </div>
-        <a href="https://colab.research.google.com/drive/1Anp4qvs20p1dyF4iOZWt9V9z3iJ6r2lU" target="_blank">
-          <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab" />
+        <a 
+          href="https://colab.research.google.com/github/patrickfleith/datapipes/blob/main/notebooks/Structured_Output_with_OpenAI.ipynb" 
+          target="_blank"
+        >
+          <img 
+            src="https://colab.research.google.com/assets/colab-badge.svg" 
+            alt="Open in Colab" 
+          />
         </a>
       </div>
 
-      <!-- Guide #2 -->
+      <!-- Item 2 -->
       <div class="list-group-item d-flex justify-content-between align-items-center">
         <div>
-          <span style="font-size: 1.5rem; margin-right: 0.5rem;">⚖️</span>
-          <strong>Dataset Balancing</strong>
+          <span style="font-size: 1.5rem; margin-right: 0.5rem;">📝</span>
+          <strong>Structured Output with Anthropic</strong>
           <p class="mb-0 small text-muted">
-            Techniques to handle class imbalance in classification tasks.
+            Harness Anthropic’s Claude for structured data generation.
           </p>
         </div>
-        <a href="https://colab.research.google.com/drive/1Anp4qvs20p1dyF4iOZWt9V9z3iJ6r2lU" target="_blank">
-          <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab" />
+        <a 
+          href="https://colab.research.google.com/github/patrickfleith/datapipes/blob/main/notebooks/Structured_Output_with_Anthropic.ipynb" 
+          target="_blank"
+        >
+          <img 
+            src="https://colab.research.google.com/assets/colab-badge.svg" 
+            alt="Open in Colab" 
+          />
+        </a>
+      </div>
+
+      <!-- Item 3 -->
+      <div class="list-group-item d-flex justify-content-between align-items-center">
+        <div>
+          <span style="font-size: 1.5rem; margin-right: 0.5rem;">📝</span>
+          <strong>Structured Output with Google Gemini</strong>
+          <p class="mb-0 small text-muted">
+            Leverage Google’s Gemini for consistent, structured outputs.
+          </p>
+        </div>
+        <a 
+          href="https://colab.research.google.com/github/patrickfleith/datapipes/blob/main/notebooks/Structured_Output_with_Google_Gemini.ipynb" 
+          target="_blank"
+        >
+          <img 
+            src="https://colab.research.google.com/assets/colab-badge.svg" 
+            alt="Open in Colab" 
+          />
+        </a>
+      </div>
+    </div>
+
+    <!-- 3. LLM Dataset Creation -->
+    <h3 class="mb-3">LLM Dataset Creation</h3>
+    <!-- Subsection: Easy Dataset Creation -->
+    <h4 class="mb-3">Easy Dataset Creation</h4>
+    <div class="list-group mb-5">
+      <!-- Item 1 -->
+      <div class="list-group-item d-flex justify-content-between align-items-center">
+        <div>
+          <span style="font-size: 1.5rem; margin-right: 0.5rem;">🔧</span>
+          <strong>Simple Question Generation with Distilabel and OpenAI</strong>
+          <p class="mb-0 small text-muted">
+            Create a quick question-generating pipeline using Distilabel + OpenAI.
+          </p>
+        </div>
+        <a 
+          href="https://colab.research.google.com/github/patrickfleith/datapipes/blob/main/notebooks/Simple_Question_Generation_Distilabel_OpenAI.ipynb"
+          target="_blank"
+        >
+          <img 
+            src="https://colab.research.google.com/assets/colab-badge.svg" 
+            alt="Open in Colab" 
+          />
+        </a>
+      </div>
+
+      <!-- Item 2 -->
+      <div class="list-group-item d-flex justify-content-between align-items-center">
+        <div>
+          <span style="font-size: 1.5rem; margin-right: 0.5rem;">🔧</span>
+          <strong>Getting Started with Genstruct7B</strong>
+          <p class="mb-0 small text-muted">
+            Build your own text generation pipeline with the Genstruct7B model.
+          </p>
+        </div>
+        <a 
+          href="https://colab.research.google.com/github/patrickfleith/datapipes/blob/main/notebooks/Getting_Started_with_Genstruct7B.ipynb"
+          target="_blank"
+        >
+          <img 
+            src="https://colab.research.google.com/assets/colab-badge.svg" 
+            alt="Open in Colab" 
+          />
+        </a>
+      </div>
+    </div>
+
+    <!-- 4. LLM Evaluation -->
+    <h3 class="mb-3">LLM Evaluation</h3>
+    <!-- Subsection: Automated Metrics -->
+    <h4 class="mb-3">Automated Metrics</h4>
+    <div class="list-group mb-5">
+      <!-- Item 1 -->
+      <div class="list-group-item d-flex justify-content-between align-items-center">
+        <div>
+          <span style="font-size: 1.5rem; margin-right: 0.5rem;">📊</span>
+          <strong>Evaluation 101</strong>
+          <p class="mb-0 small text-muted">
+            Intro to basic metrics for evaluating language model outputs.
+          </p>
+        </div>
+        <a 
+          href="https://colab.research.google.com/github/patrickfleith/datapipes/blob/main/notebooks/Evaluation_101.ipynb"
+          target="_blank"
+        >
+          <img 
+            src="https://colab.research.google.com/assets/colab-badge.svg" 
+            alt="Open in Colab" 
+          />
         </a>
       </div>
     </div>
@@ -239,23 +301,23 @@
   <!-- JS for Button Animation -->
   <script>
     function animateButton(event) {
-        // Prevent the default immediate link navigation
-        event.preventDefault();
+      // Prevent the default immediate link navigation
+      event.preventDefault();
 
-        const btn = event.currentTarget;
-        // Remove 'animate' class to re-trigger the animation each click
-        btn.classList.remove('animate');
+      const btn = event.currentTarget;
+      // Remove 'animate' class to re-trigger the animation each click
+      btn.classList.remove('animate');
 
-        // Force a reflow to restart the animation
-        void btn.offsetWidth; 
+      // Force a reflow to restart the animation
+      void btn.offsetWidth; 
 
-        // Add the 'animate' class to play the keyframe
-        btn.classList.add('animate');
+      // Add the 'animate' class to play the keyframe
+      btn.classList.add('animate');
 
-        // Wait slightly, then open the link so the animation is visible
-        setTimeout(() => {
-          window.open(btn.href, '_blank');
-        }, 150);
+      // Wait slightly, then open the link so the animation is visible
+      setTimeout(() => {
+        window.open(btn.href, '_blank');
+      }, 150);
     }
   </script>
 </body>
