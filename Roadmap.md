@@ -35,6 +35,11 @@
 
 - structured output
 
+### Using existing datasets
+- Popular datasets
+- How to similar dataset
+- Filter record in existing dataset
+- Dataset repurposing
 
 ### Types of Datasets?
 
