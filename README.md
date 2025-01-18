@@ -5,7 +5,7 @@ Simple guides to become a serial LLM dataset creator
 
 1. Browse the notebooks.
 2. Open them in Google Colab using the links.
-3. Make sure to set your API keys in the Colab Secrets were needed, and your hugging face token as well (read/write access).
+3. In some notebooks you may need to set API keys or your Hugging Face token in order to interact with LLMs from OpenAI, Anthropic, and Google, or to interact with your huggingface hub.
 4. Run, explore, and modify to suit your needs!
 
 ## LLM Usage Basics
@@ -28,6 +28,9 @@ Simple guides to become a serial LLM dataset creator
 1. [Simple Question Generation with Distilabel and OpenAI](https://colab.research.google.com/github/patrickfleith/datapipes/blob/main/notebooks/Simple_Question_Generation_Distilabel_OpenAI.ipynb)
 2. [Getting Started with Genstruct7B](https://colab.research.google.com/github/patrickfleith/datapipes/blob/main/notebooks/Getting_Started_with_Genstruct7B.ipynb)
 3. [SelfInstruct with Distilabel and OpenAI](https://colab.research.google.com/github/patrickfleith/datapipes/blob/main/notebooks/SelfInstruct_with_Distilabel_and_OpenAI.ipynb)
+
+#### Text Classification Datasets Generation
+1. [Fluff Detector Text Classification Dataset Generation](https://colab.research.google.com/github/patrickfleith/datapipes/blob/main/notebooks/Fluff_Detector_1_Text_Classification_Dataset_Generation.ipynb)
 
 ## LLM Evaluation
 ### Automated Metrics
