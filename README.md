@@ -1,5 +1,8 @@
 # Datapipes
-Simple guides to become a serial LLM dataset creator
+Simple guides to use LLMs and create datasets.
+
+> [!NOTE]
+> All notebooks checked and updated last February 6, 2025.
 
 *I try to execute them once a month to make sure they still work on Google Colab. If you find any bugs or issues, please let me know! I'll try to fix them as soon as possible.*
 
