@@ -32,6 +32,7 @@
 - True/False questions generationfrom document(s)
 - Question transformation to fit a specific format or style
 - Instruction / template / constructor / generator
+- General principles: expansion, compression, filtering, refinement.
 
 - structured output
 
