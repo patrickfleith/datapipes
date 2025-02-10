@@ -1,5 +1,5 @@
 # Datapipes
-Simple guides to use LLMs and create datasets.
+Learn how to use LLMs and create datasets with simple and reproducible notebooks.
 
 > [!NOTE]
 > All notebooks checked and updated last February 6, 2025.
@@ -26,11 +26,10 @@ Simple guides to use LLMs and create datasets.
 3. [Structured Output with Google Gemini](https://colab.research.google.com/github/patrickfleith/datapipes/blob/main/notebooks/Structured_Output_with_Google_Gemini.ipynb)
 
 ## LLM Dataset Creation
-
-#### Queries Generation
 1. [Simple Question Generation with Distilabel and OpenAI](https://colab.research.google.com/github/patrickfleith/datapipes/blob/main/notebooks/Simple_Question_Generation_Distilabel_OpenAI.ipynb)
 2. [Getting Started with Genstruct7B](https://colab.research.google.com/github/patrickfleith/datapipes/blob/main/notebooks/Getting_Started_with_Genstruct7B.ipynb)
 3. [SelfInstruct with Distilabel and OpenAI](https://colab.research.google.com/github/patrickfleith/datapipes/blob/main/notebooks/SelfInstruct_with_Distilabel_and_OpenAI.ipynb)
+4. [Everything you need to know to work with the 🤗 Datasets library](https://colab.research.google.com/github/patrickfleith/datapipes/blob/main/notebooks/Everything_You_Need_to_Know_to_Work_with_🤗_Datasets_library.ipynb)
 
 #### Text Classification Datasets Generation
 1. [Fluff Detector Text Classification Dataset Generation](https://colab.research.google.com/github/patrickfleith/datapipes/blob/main/notebooks/Fluff_Detector_1_Text_Classification_Dataset_Generation.ipynb)
