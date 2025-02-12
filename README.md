@@ -30,9 +30,11 @@ Learn how to use LLMs and create datasets with simple and reproducible notebooks
 2. [Getting Started with Genstruct7B](https://colab.research.google.com/github/patrickfleith/datapipes/blob/main/notebooks/Getting_Started_with_Genstruct7B.ipynb)
 3. [SelfInstruct with Distilabel and OpenAI](https://colab.research.google.com/github/patrickfleith/datapipes/blob/main/notebooks/SelfInstruct_with_Distilabel_and_OpenAI.ipynb)
 4. [Everything you need to know to work with the 🤗 Datasets library](https://colab.research.google.com/github/patrickfleith/datapipes/blob/main/notebooks/Everything_you_need_to_know_to_work_with_the_🤗_Datasets_library.ipynb)
+5. [Semantically Filter Existing Datasets for Domain Specific Project](https://colab.research.google.com/github/patrickfleith/datapipes/blob/main/notebooks/Semantically_Filter_Existing_Datasets_to_Kickstart_Domain_Specific_Projects.ipynb)
 
 #### Text Classification Datasets Generation
 1. [Fluff Detector Text Classification Dataset Generation](https://colab.research.google.com/github/patrickfleith/datapipes/blob/main/notebooks/Fluff_Detector_1_Text_Classification_Dataset_Generation.ipynb)
+
 
 ## LLM Evaluation
 ### Automated Metrics
