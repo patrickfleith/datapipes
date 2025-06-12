@@ -2,7 +2,7 @@
 Learn how to use LLMs and create datasets with simple and reproducible notebooks.
 
 > [!NOTE]
-> All notebooks checked and updated last February 6, 2025.
+> All notebooks checked and updated last June 12, 2025.
 
 *I try to execute them once a month to make sure they still work on Google Colab. If you find any bugs or issues, please let me know! I'll try to fix them as soon as possible.*
 
@@ -11,10 +11,11 @@ Learn how to use LLMs and create datasets with simple and reproducible notebooks
 3. In some notebooks you may need to set API keys or your Hugging Face token in order to interact with LLMs from OpenAI, Anthropic, and Google, or to interact with your huggingface hub.
 4. Run, explore, and modify to suit your needs!
 
-## New
+## ✨ New! ✨
 Try out [Datafast](https://github.com/patrickfleith/datafast) for a convenient way to create datasets.
 
 1. [Quickstart: Text Classification](https://colab.research.google.com/github/patrickfleith/datapipes/blob/main/notebooks/Datafast_Quickstart_Text_Classification.ipynb)
+
 
 ## LLM Usage Basics
 
